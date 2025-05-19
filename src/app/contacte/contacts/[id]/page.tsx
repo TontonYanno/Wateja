@@ -5,7 +5,7 @@ type Props = {}
 export default function page({}: Props) {
     return (
         <div>
-            <h1> Pages avec les id  </h1>
+            <h1> Pages contact id marche   </h1>
         </div>
     )
 }

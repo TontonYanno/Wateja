@@ -3,7 +3,6 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { poppins } from "./font/font";
 
-
 export const metadata: Metadata = {
   title: "Wateja",
   description: "Une  application de gestion de contact",
@@ -17,6 +16,7 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <body className={`${poppins.className}`}>
+        
         {children}
       </body>
     </html>
